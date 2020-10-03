@@ -1,0 +1,14 @@
+LOAD * INLINE [
+ID, Description
+
+One
+Two
+Three
+Four
+Five
+Six
+Seven
+Eight
+Nine
+Ten
+];
