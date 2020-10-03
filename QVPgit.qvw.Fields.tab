@@ -1,0 +1,35 @@
+FieldName	DistinctOnly	Cardinal	TotalCount	PossibleCount	HasInfo	IsLocked	AlwaysOneSelected	AndMode	Tags
+ID	0	10	20	-1	-1	0	0	0	$ascii, $text
+Description	0	1	20	-1	-1	0	0	0	$ascii, $text
+customer_id	1	251	0	-1	-1	0	0	0	$key
+cust_first_name	0	249	251	-1	-1	0	0	0	$ascii, $text
+cust_last_name	0	250	251	-1	-1	0	0	0	$ascii, $text
+cust_email	0	251	251	-1	-1	0	0	0	$ascii, $text
+cust_username	0	251	251	-1	-1	0	0	0	$ascii, $text
+cust_birthday	0	251	251	-1	-1	0	0	0	
+cust_streetname	0	186	251	-1	-1	0	0	0	$ascii, $text
+cust_streetnumber	0	192	251	-1	-1	0	0	0	
+cust_city	0	251	251	-1	-1	0	0	0	$text
+cust_postalcode	0	124	251	-1	-1	0	0	0	
+cust_country	0	64	251	-1	-1	0	0	0	$ascii, $text
+cust_latitude	0	251	251	-1	-1	0	0	0	
+cust_longitude	0	251	251	-1	-1	0	0	0	
+rep_id	0	50	1000	-1	-1	0	0	0	$key, $numeric, $integer
+rep_first_name	0	49	50	-1	-1	0	0	0	$ascii, $text
+rep_last_name	0	50	50	-1	-1	0	0	0	$ascii, $text
+rep_username	0	50	50	-1	-1	0	0	0	$ascii, $text
+product_id	1	250	0	-1	-1	0	0	0	$key, $numeric, $integer
+product_name	0	237	250	-1	-1	0	0	0	$ascii, $text
+product_family	0	225	250	-1	-1	0	0	0	$ascii, $text
+product_manufacturer	0	174	250	-1	-1	0	0	0	$ascii, $text
+product_price	0	241	250	-1	-1	0	0	0	$numeric, $integer
+sales_date	1	2188	0	-1	-1	0	0	0	$key, $numeric, $integer, $timestamp, $date
+invoice_no	0	1000	1000	-1	-1	0	0	0	$ascii, $text
+invoice_currency	0	91	1000	-1	-1	0	0	0	$ascii, $text
+item_count	0	100	1000	-1	-1	0	0	0	$numeric, $integer
+sales_amount	0	968	1000	-1	-1	0	0	0	$numeric, $integer
+Week	0	53	2188	-1	-1	0	0	0	$numeric, $integer
+Month	0	12	2188	-1	-1	0	0	0	$numeric, $integer
+YearMonth	0	72	2188	-1	-1	0	0	0	$numeric, $integer, $timestamp, $date
+Quarter	0	4	2188	-1	-1	0	0	0	$ascii, $text
+Year	0	6	2188	-1	-1	0	0	0	$numeric, $integer

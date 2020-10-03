@@ -1,0 +1,7 @@
+TableName	Loose	#Records	#Fields	#Keys
+INLFED	0	20	2	0
+Customer	0	251	13	1
+Salesrep	0	50	4	1
+Product	0	250	5	1
+Sales	0	1000	8	4
+Calendar	0	2188	6	1
